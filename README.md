@@ -34,23 +34,23 @@ a light and dark theme, video playback, and a focusable UI for TV navigation.
 
 ## Project Structure
 
-app/src/main/java/com/example/myapplicationtv/presentation/theme/Color.kt: Defines the color schemes
+- app/src/main/java/com/example/myapplicationtv/presentation/theme/Color.kt: Defines the color schemes
 for light and dark themes.
-app/src/main/java/com/example/myapplicationtv/presentation/screen/HomeScreen.kt: Contains the
+- app/src/main/java/com/example/myapplicationtv/presentation/screen/HomeScreen.kt: Contains the
 HomeScreen composable which displays the list of videos.
-app/src/main/java/com/example/myapplicationtv/presentation/screen/PlayerScreen.kt: Contains the
+- app/src/main/java/com/example/myapplicationtv/presentation/screen/PlayerScreen.kt: Contains the
 PlayerScreen composable which handles video playback using ExoPlayer.
-app/src/main/java/com/example/myapplicationtv/presentation/viewmodel/VideoViewModel.kt: ViewModel
+- app/src/main/java/com/example/myapplicationtv/presentation/viewmodel/VideoViewModel.kt: ViewModel
 for managing video data and UI state.
 
 ## Usage
 
 ### HomeScreen
 
-The HomeScreen composable displays a list of videos in a LazyColumn and LazyRow. It uses the
+- The HomeScreen composable displays a list of videos in a LazyColumn and LazyRow. It uses the
 VideoCard composable to display individual video items.
 
 ### PlayerScreen
 
-The PlayerScreen composable initializes and manages ExoPlayer for video playback. It displays a
+- The PlayerScreen composable initializes and manages ExoPlayer for video playback. It displays a
 PlayerView for the video content.
