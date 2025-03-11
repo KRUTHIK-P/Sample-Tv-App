@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="featured_videos">Featured Videos</string>
+    <string name="popular_videos">Popular Videos</string>
+</resources>

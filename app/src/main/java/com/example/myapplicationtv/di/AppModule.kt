@@ -1,12 +1,12 @@
 package com.example.myapplicationtv.di
 
 import android.content.Context
-import com.example.myapplicationtv.data.api.KtorClient
-import com.example.myapplicationtv.data.database.VideoDao
-import com.example.myapplicationtv.data.database.VideoDatabase
-import com.example.myapplicationtv.data.preferences.UserPreferenceManager
-import com.example.myapplicationtv.data.repository.VideoRepositoryImpl
-import com.example.myapplicationtv.domain.repository.VideoRepository
+import com.example.core.repository.VideoRepository
+import com.example.data.data.api.KtorClient
+import com.example.data.data.database.VideoDao
+import com.example.data.data.database.VideoDatabase
+import com.example.data.data.preferences.UserPreferenceManager
+import com.example.data.data.repository.VideoRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

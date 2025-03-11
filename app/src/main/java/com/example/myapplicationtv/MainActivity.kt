@@ -7,9 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.fragment.app.FragmentActivity
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.rememberNavController
-import com.example.myapplicationtv.navigation.NavGraph
-import com.example.myapplicationtv.presentation.theme.SampleTVAppTheme
-import com.example.myapplicationtv.presentation.viewmodel.VideoViewModel
+import com.example.feature.navigation.NavGraph
+import com.example.feature.presentation.theme.SampleTVAppTheme
+import com.example.feature.presentation.viewmodel.VideoViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

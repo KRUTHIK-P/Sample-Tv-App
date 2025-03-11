@@ -1,5 +1,3 @@
 <resources>
     <string name="app_name">My Application TV</string>
-    <string name="featured_videos">Featured Videos</string>
-    <string name="popular_videos">Popular Videos</string>
 </resources>
